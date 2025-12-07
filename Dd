@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AviaMasters — VIP Access</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root{
+      --bg:#05070e;
+      --gold:#ffd36a;
+      --gold2:#ff9f1a;
+      --text:#ffffff;
+      --muted:#aaaaaa;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    body{
+      min-height:100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(800px 400px at 10% 10%, rgba(255,180,0,0.08), transparent),
+        radial-gradient(600px 300px at 90% 80%, rgba(0,255,200,0.06), transparent),
+        linear-gradient(180deg, #01030a, #060b1b);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+      color:var(--text);
+    }
+
+    .lux-wrap{
+      max-width:1000px;
+      width:100%;
+      display:grid;
+      grid-template-columns:1.1fr 0.9fr;
+      gap:40px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(0,0,0,0.6));
+      border-radius:26px;
+      border:1px solid rgba(255,255,255,0.05);
+      box-shadow:0 40px 120px rgba(0,0,0,0.85);
+      padding:34px;
+      overflow:hidden;
+    }
+
+    @media (max-width:900px){
+      .lux-wrap{grid-template-columns:1fr}
+    }
+
+    .lux-image{
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 30px 80px rgba(0,0,0,0.8);
+    }
+
+    .lux-image img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    .lux-card{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      gap:18px;
+    }
+
+    .lux-badge{
+      display:inline-block;
+      padding:8px 18px;
+      border-radius:999px;
+      font-weight:900;
+      letter-spacing:2px;
+      font-size:12px;
+      background:linear-gradient(90deg,var(--gold),var(--gold2));
+      color:#111;
+      width:max-content;
+    }
+
+    .lux-title{
+      font-size:36px;
+      font-weight:900;
+      line-height:1.15;
+      color:var(--gold);
+      text-shadow:0 10px 40px rgba(255,190,60,0.15);
+    }
+
+    .lux-sub{
+      font-size:15px;
+      color:var(--muted);
+      max-width:420px;
+      line-height:1.6;
+    }
+
+    .lux-list{
+      margin-top:10px;
+      list-style:none;
+      display:grid;
+      gap:10px;
+      font-size:15px;
+    }
+
+    .lux-list li{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .dot{
+      width:9px;
+      height:9px;
+      border-radius:50%;
+      background:linear-gradient(180deg,var(--gold),var(--gold2));
+      box-shadow:0 0 10px rgba(255,180,0,0.6);
+      flex-shrink:0;
+    }
+
+    .lux-btn{
+      margin-top:22px;
+      display:inline-block;
+      text-align:center;
+      padding:16px;
+      width:100%;
+      border-radius:14px;
+      background:linear-gradient(90deg,var(--gold),var(--gold2));
+      color:#111;
+      font-weight:900;
+      font-size:18px;
+      letter-spacing:0.5px;
+      text-decoration:none;
+      box-shadow:0 18px 50px rgba(255,170,40,0.35);
+      transition:.2s ease;
+    }
+
+    .lux-btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 26px 80px rgba(255,170,40,0.55);
+    }
+
+    .lux-note{
+      margin-top:10px;
+      font-size:12px;
+      color:#777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="lux-wrap">
+
+    <div class="lux-image">
+      <img src="avia.jpg" alt="AviaMasters">
+    </div>
+
+    <div class="lux-card">
+      <div class="lux-badge">VIP ACCESS</div>
+
+      <div class="lux-title">
+        AviaMasters
+      </div>
+
+      <div class="lux-sub">
+        Exclusive access to the fast-paced premium game experience. Instant registration, smooth gameplay, luxury design.
+      </div>
+
+      <ul class="lux-list">
+        <li><span class="dot"></span> Instant registration</li>
+        <li><span class="dot"></span> Mobile & desktop optimized</li>
+        <li><span class="dot"></span> High-speed gameplay</li>
+        <li><span class="dot"></span> Premium visual experience</li>
+      </ul>
+
+      <!-- ✅ YOUR REFERRAL LINK -->
+      <a class="lux-btn"
+         href="https://vv-one96.com/v3/5651/landing-aviamasters-demo?p=z1rz"
+         target="_blank">
+         ENTER AVIAMASTERS
+      </a>
+
+      <div class="lux-note">
+        Tap the button above to access the game instantly.
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
